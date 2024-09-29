@@ -19,8 +19,9 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build the Docker image
-        run: docker build . -t Alan79238/prueba-gha:latest
+        run: docker build . -t alan79238/prueba-gha:latest  # Cambiado a minúsculas
 
       - name: Push the Docker image
-        run: docker push docker.io/Alan79238/prueba-gha:latest  
+        run: docker push docker.io/alan79238/prueba-gha:latest  # Cambiado a minúsculas
+
  
