@@ -22,4 +22,5 @@ jobs:
         run: docker build . -t Alan79238/prueba-gha:latest
 
       - name: Push the Docker image
-        run: docker push Alan79238/prueba-gha:latest  
+        run: docker push docker.io/Alan79238/prueba-gha:latest  
+ 
