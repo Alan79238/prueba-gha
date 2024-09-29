@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build the Docker image
-        run: docker build . -t Alan79238/prueba-gha.:latest
+        run: docker build . -t Alan79238/prueba-gha:latest
 
       - name: Push the Docker image
         run: docker push your-image-name:latest
